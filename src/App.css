@@ -6,12 +6,12 @@
 }
 
 .earth {
-  background-repeat: no-repeat;
+  
   bottom: 0;
 }
 
 .sky {
-  opacity: 0.9;
+  opacity: 1;
   background: url("https://i.dlpng.com/static/png/1424742-horizontal-png-horizontal-road-road-horizon-png-1024_683_preview.png") repeat-x  100% 100% / auto 100%;
   transform: " ";
   top: 0;
@@ -102,12 +102,14 @@ img {
 
 .treeback {
   top: -70%; left: 10%;
-  height: 100px; height: 100px;    
+  height: 500px; height: 500px;   
+  opacity: 0.7; 
 }
 
 .treeback1 {
   top: -70%; left: 100%;
-  height: 150px; height: 150px;    
+  height: 150px; height: 150px;
+  opacity: 0.7;     
 }
 
 html, body {
@@ -121,3 +123,4 @@ html, body {
 }
 
 * { user-select: none; }
+
